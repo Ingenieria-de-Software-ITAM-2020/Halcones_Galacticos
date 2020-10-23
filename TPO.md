@@ -1,4 +1,4 @@
-#  <p align="center" > IEEE TEST PLAN TEMPLATE </p>
+# <p align="center">IEEE TEST PLAN TEMPLATE</p>
 1. TEST PLAN IDENTIFIER 
 1. REFERENCES 
 1. INTRODUCTION 
