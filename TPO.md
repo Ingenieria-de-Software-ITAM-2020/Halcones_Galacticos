@@ -5,8 +5,8 @@
 ## 4  TEST ITEMS
 ## 5  SOFTWARE RISK ISSUES 
 ## 6  FEATURES TO BE TESTED
-    A.
-    B.
+    A. (alumno)(1) búsqueda de una materia ( búsqueda específica por código o por medio de departamento académico)
+    B. (alumno)(1) visibilidad de horarios disponibles de una materia para inscripción (alumno)
     C.
     D.
     E.
