@@ -5,7 +5,12 @@
 ## 4  TEST ITEMS
 ## 5  SOFTWARE RISK ISSUES 
 ## 6  FEATURES TO BE TESTED
-    A. g
+    A.
+    B.
+    C.
+    D.
+    E.
+    F.
 ## 7  FEATURES NOT TO BE TESTED 
 ## 8  APPROACH
 ## 9  ITEM PASS/FAIL CRITERIA
