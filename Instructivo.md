@@ -1,6 +1,6 @@
 Comunicación Colmillo:
- - Encender el dispositivo en el que accederas a la aplicación
-    1. Configurar tu conexión a internet o verificar la conectividad
+ 1. Encender el dispositivo en el que accederas a la aplicación
+ - Configurar tu conexión a internet o verificar la conectividad
     1. Ingresar a algun explorador
     1. Ingresar al [link Prototipo](https://pr.to/9Q0PLU/)
     1. Inicialmente te mostrara la pantalla de inicio de Comunicación Colmillo
