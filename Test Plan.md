@@ -1,6 +1,9 @@
 # <p align="center">IEEE TEST PLAN TEMPLATE</p>
 
 
+Se trabajo en conjunto la información vía google drive, se puede consultar el documento original en : https://docs.google.com/document/d/1g65MzJE9GS6g1CgZeJwIKahAWZpPuMFBT_jJhgfzeNE/edit?usp=sharing
+
+
 # **Índice**
 
 **1) Test Plan Identifier**
