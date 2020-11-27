@@ -14,4 +14,4 @@
 
 
 - El link de la presentación es el siguiente:
-[Presentación](https://docs.google.com/presentation/d/1jmVibGQ88-eMewvKo2rYXoLNsia_uKSerfT74GW0BVw/edit?usp=sharing)
+[Presentación](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Comunicaci%C3%B3n%20Colmillo%20Halcones%20Gal%C3%A1cticos.pptx)
