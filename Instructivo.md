@@ -32,7 +32,15 @@ Comunicación Colmillo:
        1. Cuando encuentres a la persona, la seleccionaras y presionaras el boton con una palomita.
        1. Al presionar el boton, te mandara a la pantalla principal del chat y saldra esa persona al principio y ya se habra mandado la solicitud.
        1. Ahora podras chatear con ese usuario en cuanto acepte tu solicitud.
-    1. 
- 1. En la parte superior izquierda podremos ver el botón de salir que lo que realizara es sacarnos de nuestra sesión y mandarnos a la pantalla inicial.
+    1. En caso de querer mandar un mensaje a algun usuario que posteriormente tengas como amigo, tendras que ubicar el recuadro en la parte inferior, donde podras escribir tu mensaje.
+       1. A continuación, cuando termines de escribir el mensaje, tendras que buscar un botón color verde con una flecha, este botón se encuentra en la esquina inferior derecha.
+       1. Despues de ubicarlo y tener el mensaje listo, lo presionaras y automaticamente el mensaje sera enviado y el recuadro de texto sera borrado para que continues enviando mensajes.
+    1. En caso que desees enviar un archivo, tendras que ubicar el botón blanco con un icono de un clip, que se encuentra en la esquina inferior derecha.
+       1. Al presionar este botón, automaticamente se abrira una nueva ventana del explorador de archivos de tu computadora.
+       1. En esta ventana nueva, buscaras el archivo a enviar y lo seleccionaras.
+       1. Al seleccionarlo tendra que presionar el botón que dice "Abrir" en el explorador de archivos.
+       1. Despues de presionar "Abrir", comenzara a cargar el archivo y en cuanto termine de cargar, podras seleccionar el boton verde con un incono de una flecha, que se encuentra en la esquina inferior derecha, para enviarlo.
+       1. Cuando presiones el botón de enviar, el archivo se mandara y se borrara todo del recuadro de texto.
+ 1. Finalmente, cuando desees cerrar tu sesión. por la esquina superior izquierda podremos ver el botón de salir que lo que realizara es sacarnos de nuestra sesión y mandarnos a la pantalla inicial.
       
 
