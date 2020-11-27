@@ -100,19 +100,27 @@ El sistema no tendrá funciones que no sean probadas debido a que es un sistema 
 Se iniciará el proceso de pruebas con la creación de un ambiente específico de pruebas, donde se probará cada feature por separado en un inicio con datos dummy es decir de prueba. Probando las funcionalidades individualmente y después en conjunto utilizando datos de prueba obtenidos de las interfaces y por último con usuarios y datos reales (prueba piloto).
 
 1. Inicio de sesión:
+
   a. El inicio de sesión debe probarse específicamente contando con la conexión al servidor del ITAM con un usuario de prueba proporcionado por el ITAM.
+  
   b. Se realiza prueba con usuarios durante prueba piloto con usuarios reales.
+  
 2. Búsqueda de usuario para enviar chat
 
   a. Se prueba con datos locales de ejemplo para validar la funcionalidad.
+  
   b. Se realiza con datos de prueba obtenidos desde el servidor del ITAM.
+  
   c. Se realiza prueba con usuarios reales durante prueba piloto con usuarios reales.
 
 3. Envío de chat
 
   a. Se prueba funcionalidad individual de envío y recepción con usuarios prueba
+  
   b. Se prueba nivel de concurrencia en chats simultáneos por diferentes usuarios para evitar problemas de capacidad.
+  
   c. Se realiza prueba con usuarios obtenidos desde el servidor del ITAM.
+  
   d. Se realiza prueba con usuarios reales durante prueba piloto con usuarios reales.
 
 **Las métricas del sistema son las siguientes:**
@@ -134,13 +142,7 @@ Hardware
 
 Software
 
-Combinations of HW, SW and other vendor packages
 
-What levels of regression testing will be done and how much at each test level?
-
-Will regression testing be based on severity of defects detected?
-
-How will elements in the requirements and design that do not make sense or are untestable be processed?
 
 **9 ITEM PASS/FAIL CRITERIA**
 
