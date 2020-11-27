@@ -1,6 +1,6 @@
 # <p align="center" >Los Halcones Galacticos </p>
 
-- El documento de requerimientos de software es: 
+- El documento de requerimientos de software es: [Requerimientos](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Requerimientos.md)
 
 
 - El archivo que contiene el plan de calidad del proyecto es:
@@ -8,9 +8,8 @@
 
 Arquitectura y justificación  
 Metodología y justificación  
-Código del proyecto  
 
-[TPO](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/TPO.md)
+
 
 - Las instrucciones para replicar el prototipo se encuentran en: 
 [Instructivo](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Instructivo.md)
