@@ -1,5 +1,5 @@
 # <p align="center" >Los_Halcones_Galacticos </p>
-[link to TPO](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/rafagr11-testplanv2/Test%20Plan.md)
+[link to Test Plan](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/rafagr11-testplanv2/Test%20Plan.md)
 
 [link Instructivo](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Instructivo)
 
