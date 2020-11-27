@@ -192,19 +192,13 @@ El sistema es muy intuitivo y simple, por lo que no creemos que se necesite capa
 La necesidad de capacitación en términos de manejo del sistema se cubrirá por medio de material gráfico como tutoriales y video tutoriales.
 
 **15 RESPONSIBILITIES**
-
-|
- | TM | PM | DEV TEAM | TEST TEAM | CLIENT |
-| --- | --- | --- | --- | --- | --- |
-| Aceptación de documentación de pruebas | x | x |
- | x | x |
-| Revisiones de diseño de sistema | x | x | x | x | x |
-| Procedimientos de pruebas | x | x | x | x |
- |
-| Revisión de prototipos de pantallas |
- |
- | x | x | x |
-| Control de cambios | x | x | x | x | x |
+|                                       | TM | PM | DEV TEAM | TEST TEAM | CLIENT |
+|---------------------------------------|----|----|----------|-----------|--------|
+| Aceptación de documentación de prueba | X  | X  |          | X         | X      |
+| Revisiones de diseño de sistema       | X  | X  | X        | X         | X      |
+| Procedimientos de pruebas             | X  | X  | X        | X         | X      |
+| Revisión de prototipos de pantallas   | X  | X  | X        | X         | X      |
+| Control de cambios                    | X  | X  | X        | X         | X      |
 
 **16 SCHEDULE**
 
