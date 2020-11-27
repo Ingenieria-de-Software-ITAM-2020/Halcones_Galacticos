@@ -19,19 +19,19 @@ Comunicación Colmillo:
     1. Si eliges un chat grupal, veras por colores a cada comentario de cada usuario.
     1. Si eliges algun administrativo, se vera la conversación igual que algun alumno o maestro.
     1. Si eliges el de alguna persona que no has agregado y te mando solicitud, te aparecera un mensaje en el cual te preguntara si deseas agregarlo.
-      1. En caso de no desear agregarlo, puedes presionar que no y enseguida te aparecera un icono en la esquina superior derecha del chat donde podras mandarle solicitud en caso que en un futuro desees agregarlo.
-      1. En caso de que selecciones que aceptas la solicitud de la persona, te mostrara los mensajes que te haya intentado enviar.
+       1. En caso de no desear agregarlo, puedes presionar que no y enseguida te aparecera un icono en la esquina superior derecha del chat donde podras mandarle solicitud en caso que en un futuro desees agregarlo.
+       1. En caso de que selecciones que aceptas la solicitud de la persona, te mostrara los mensajes que te haya intentado enviar.
     1. En caso de querer realizar un grupo nuevo tendremos la opción de crearlos en la esquina superior derecha, este se podra identificar facilmente con el signo de "+".
-      1. Cuando presiones el signo de "+", te mandara a una nueva pagina donde podras buscar dentro de tus contactos a las personas que quieress agregar al grupo e ir seleccionandolas.
-      1. Podras buscar entre alumnos, administrativos y maestros seleccionando las opcion o opciones que busques en el checklist junto al buscador.
-      1. Cuando hayas agregado el nombre de la persona y el tipo de usuario, debes presisonar en el boton de buscar para que aparezcan los distitnos usuarios con esas caracteristicas.
-      1. Cuando termines de agregarlos, unicamente presionas el boton con una palomita y automaticamente te mandara a la pagina principal del chat y aparecera tu grupo.
+       1. Cuando presiones el signo de "+", te mandara a una nueva pagina donde podras buscar dentro de tus contactos a las personas que quieress agregar al grupo e ir seleccionandolas.
+       1. Podras buscar entre alumnos, administrativos y maestros seleccionando las opcion o opciones que busques en el checklist junto al buscador.
+       1. Cuando hayas agregado el nombre de la persona y el tipo de usuario, debes presisonar en el boton de buscar para que aparezcan los distitnos usuarios con esas caracteristicas.
+       1. Cuando termines de agregarlos, unicamente presionas el boton con una palomita y automaticamente te mandara a la pagina principal del chat y aparecera tu grupo.
     1. En caso de querer buscar a algun usuario que aun no tengas agregado a tu lista de amigos, tendras que buscar en la esquina superior derecha el boton caracterizado con el simbolo de una lupa y seleccionarlo.
-      1. Al momenot de seleccionar la lupa, se te mandara automaticamente a una nueva pagina donde podras buscar entre administrativos, alumnos o maestros, unicamente seleccionando el checklist de tu agrado.
-      1. Acontinuación escribiras el nombre de la persona que deseas agregar.
-      1. Cuando encuentres a la persona, la seleccionaras y presionaras el boton con una palomita.
-      1. Al presionar el boton, te mandara a la pantalla principal del chat y saldra esa persona al principio y ya se habra mandado la solicitud.
-      1. Ahora podras chatear con ese usuario en cuanto acepte tu solicitud.
+       1. Al momenot de seleccionar la lupa, se te mandara automaticamente a una nueva pagina donde podras buscar entre administrativos, alumnos o maestros, unicamente seleccionando el checklist de tu agrado.
+       1. Acontinuación escribiras el nombre de la persona que deseas agregar.
+       1. Cuando encuentres a la persona, la seleccionaras y presionaras el boton con una palomita.
+       1. Al presionar el boton, te mandara a la pantalla principal del chat y saldra esa persona al principio y ya se habra mandado la solicitud.
+       1. Ahora podras chatear con ese usuario en cuanto acepte tu solicitud.
     1. 
  1. En la parte superior izquierda podremos ver el botón de salir que lo que realizara es sacarnos de nuestra sesión y mandarnos a la pantalla inicial.
       
