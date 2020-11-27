@@ -67,22 +67,58 @@ Este sistema depende de varios servicios del ITAM, en particular los de inicio d
    - Contraseña (TextField): este textField se utilizara con formato de contraseña para que el usuario ingrese la contraseña que corresponde con el usuario y conforme vaya escribiendo, esta se irá ocultando marcando únicamente círculos. El placeholder debe indicar que se trata de un campo de “Contraseña”.
    - Olvidé mi contraseña (Link): este botón lo usaremos para que en caso de que el usuario haya olvidado su contraseña pueda mandarlo a otra página para recuperarla.
 Ingresar (Button): Este botón nos llevará a la página del chat de la aplicación de nuestro usuario.
-[[https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/1.png|alt=octocat]]
 ![Alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/1.png "Optional Title") 
 
 
-La vista de los usuarios en la pagina del chat  
-- button group “Contactos”: esté button group se utilizara para tener las conversaciones recientes, en el podrás seleccionar la conversación que deseas ver, dentro de este button group podremos ver el nombre del contacto y un pequeño icono del lado izquierdo que nos dará a entender si es un alumno, un grupo, un administrativo o un maestro, así como usuarios que te han mandado solicitud y aun no aceptas.
-- type Search “Buscador”: este se utilizara como buscador de usuarios, tanto alumnos, maestros y administrativos a través de su nombre, y que al momento de seleccionarlo se abrirá una conversación nueva o vieja de ese usuario, en caso de no tenerlo agregado, se mostrará en la esquina superior derecha del chat un botón para agregar al usuario a tus contactos.
-- TextField “Mensaje”: habrá un textfield que se utilizará como cuadro de texto en el que podremos escribir nuestros mensajes a enviar.
-- Button”Enviar”: este botón se encontrará del lado derecho junto al textfield de mensaje y se encargará de tomar el texto escrito en el textfield y enviarlo, así como borrar lo que se encuentra en textfield para que la persona pueda enviar más.
-- Botón “Agregar archivos”: Este botón abrirá una pantalla del explorador de archivos de tu equipo para que puedas seleccionar el archivo que deseas subir, cuando lo selecciones, con el botón de enviar podrás mandarle al otro usuario.
+1. Recuperar contraseña
+
+   - Correo (TextField): dentro de este Textfield tendrás que agregar el correo utilizado para enviarte un link de recuperación de contraseña.
+   - Recuperar contraseña (Button): Este botón se encargará de tomar el correo al que se mandara el link, mandara la instrucción de enviar correo y a continuación te mandara a la pantalla de inicio de sesión.
+![Alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/2.png "Optional Title")
 
 
 
-La vista de los usuarios de la página de recuperación de contraseña  
-- TextField “Correo”: dentro de este Textfield tendrás que agregar el correo utilizado para enviarte un link de recuperación de contraseña
-- Button “Recuperar contraseña”: Este button se encargará de tomar el correo al que se mandara el link, mandara la instrucción de enviar correo y a continuación te mandara a la pantalla de inicio de sesión
+
+1. Pantalla principal: Chat
+
+   - Contactos (List): este componente se utilizará para tener las conversaciones recientes, en el podrás seleccionar la conversación que deseas ver. Cada miembro de la lista tiene el nombre del contacto y un pequeño icono del lado izquierdo que nos dará a entender si es un alumno, un grupo, un administrativo o un maestro. En este panel también se puede ver los usuarios que te han mandado solicitud de conversación.
+   - Lupa (Button): este se utilizara para mandarnos a otra página donde podremos buscar a nuevos usuarios.
+   - “+” (Button): este botón nos abrirá un popup en la ventana, en esta podremos elegir a los usuarios que queremos agregar a un grupo.
+   - Mensaje (TextField): habrá un textfield que se utilizará como cuadro de texto en el que podremos escribir nuestros mensajes a enviar.
+   - Enviar (Button): este botón se encontrará del lado derecho junto al textfield de mensaje y se encargará de tomar el texto escrito en el textfield y enviarlo, así como borrar lo que se encuentra en textfield para que la persona pueda enviar más.
+   - Agregar archivos (Button): Este botón abrirá una pequeña ventana donde el usuario puede cargar archivos desde su dispositivo electrónico.
+   - Usuario (Button): al presionar este botón se desplegará un menú de usuario, actualmente solo posee la opción de cerrar sesión.
+   - Usuario (Button): este botón al presionarlo nos mostrara la opción para cerrar sesión
+   ![Alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/3.png "Optional Title")
+   
+1.Ventana secundaria: Grupo
+
+   - “+” (Button): Este botón abre la pestaña para seleccionar a los usuarios que se desea agregar a un chat grupal, únicamente aparecen en la lista los usuarios que han sido agregados previamente o que forman parte del mismo salón de clases.
+   - Crear (Button): Este botón creará un grupo nuevo después de haber seleccionado a los usuarios que deseamos agregar al grupo.
+   ![Alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/5.png "Optional Title")
+   
+1. Ventana secundaria: Seleccionar archivos
+
+   - Adjuntar archivo (Button): Este botón abrirá una pantalla del explorador de archivos de tu equipo para que puedas seleccionar el archivo que deseas subir, cuando lo selecciones, comenzará a cargar el archivo y será enviado una vez que haya sido cargado.
+   ![Alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/9.png "Optional Title")
+   
+1. Pantalla secundaria: Busqueda
+
+   - Buscador (TextField): este se utilizara para escribir el nombre del usuario a buscar, se tendrá que escribir el nombre en este textfield para poder posteriormente presionar el botón de “Buscar”.
+   - Tipo de usuario (Radio List): en esta lista de radio buttons se puede seleccionar el tipo de usuario que buscas, para filtrar y mostrar los resultados más relevantes. Aparte de los resultados exactos, se muestra una lista de usuarios que coinciden de alguna forma con el criterio de búsqueda.
+   - Buscar (Button): el botón nos ayudará a cuando terminemos de escribir el nombre poder comenzar a buscar tomando en cuenta tanto el nombre a buscar, como el tipo de usuario que designamos como prioridad.
+   - Mandar mensaje(Button): Este botón lo tendremos como opción en cada usuario para mandarle solicitud de amistad.
+   ![Alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/6.png "Optional Title")
+   
+1. Ventana secundaria: Solicitud
+
+   - Ventana: Cuando selecciones a un usuario para mandarle solicitud de conversación, aparecerá una ventana que confirmará el estatus del envío de la solicitud hacia esa persona.
+   - Aceptar (Button): el botón aceptar únicamente cerrará la ventana de confirmación de solicitud enviada.
+   ![Alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/7.png "Optional Title")
+
+
+
+
 
 **3.2.          Hardware Interfaces**  
 El producto es una aplicación web, por lo que el único componente físico necesario para su correcto funcionamiento es el servidor en el cual va a estar almacenada la aplicación. Se hará uso de los servidores dados por el ITAM, o en su defecto, servidores privados capaces de soportar el tráfico elevado del sistema.\
