@@ -100,20 +100,20 @@ El sistema no tendrá funciones que no sean probadas debido a que es un sistema 
 Se iniciará el proceso de pruebas con la creación de un ambiente específico de pruebas, donde se probará cada feature por separado en un inicio con datos dummy es decir de prueba. Probando las funcionalidades individualmente y después en conjunto utilizando datos de prueba obtenidos de las interfaces y por último con usuarios y datos reales (prueba piloto).
 
 1. Inicio de sesión:
-  1. El inicio de sesión debe probarse específicamente contando con la conexión al servidor del ITAM con un usuario de prueba proporcionado por el ITAM.
-  2. Se realiza prueba con usuarios durante prueba piloto con usuarios reales.
+  a. El inicio de sesión debe probarse específicamente contando con la conexión al servidor del ITAM con un usuario de prueba proporcionado por el ITAM.
+  b. Se realiza prueba con usuarios durante prueba piloto con usuarios reales.
 2. Búsqueda de usuario para enviar chat
 
-1. Se prueba con datos locales de ejemplo para validar la funcionalidad.
-2. Se realiza con datos de prueba obtenidos desde el servidor del ITAM.
-3. Se realiza prueba con usuarios reales durante prueba piloto con usuarios reales.
+  a. Se prueba con datos locales de ejemplo para validar la funcionalidad.
+  b. Se realiza con datos de prueba obtenidos desde el servidor del ITAM.
+  c. Se realiza prueba con usuarios reales durante prueba piloto con usuarios reales.
 
 3. Envío de chat
 
-1. Se prueba funcionalidad individual de envío y recepción con usuarios prueba
-2. Se prueba nivel de concurrencia en chats simultáneos por diferentes usuarios para evitar problemas de capacidad.
-3. Se realiza prueba con usuarios obtenidos desde el servidor del ITAM.
-4. Se realiza prueba con usuarios reales durante prueba piloto con usuarios reales.
+  a. Se prueba funcionalidad individual de envío y recepción con usuarios prueba
+  b. Se prueba nivel de concurrencia en chats simultáneos por diferentes usuarios para evitar problemas de capacidad.
+  c. Se realiza prueba con usuarios obtenidos desde el servidor del ITAM.
+  d. Se realiza prueba con usuarios reales durante prueba piloto con usuarios reales.
 
 **Las métricas del sistema son las siguientes:**
 
