@@ -22,10 +22,10 @@ Comunicación Colmillo:
        1. En caso de no desear agregarlo, puedes presionar que no y enseguida te aparecera un icono en la esquina superior derecha del chat donde podras mandarle solicitud en caso que en un futuro desees agregarlo.
        1. En caso de que selecciones que aceptas la solicitud de la persona, te mostrara los mensajes que te haya intentado enviar.
     1. En caso de querer realizar un grupo nuevo tendremos la opción de crearlos en la esquina superior derecha, este se podra identificar facilmente con el signo de "+".
-       1. Cuando presiones el signo de "+", te mandara a una nueva pagina donde podras buscar dentro de tus contactos a las personas que quieress agregar al grupo e ir seleccionandolas.
+       1. Cuando presiones el signo de "+", te abrira a una nueva pagina donde podras buscar dentro de tus contactos a las personas que quieress agregar al grupo e ir seleccionandolas.
        1. Podras buscar entre alumnos, administrativos y maestros seleccionando las opcion o opciones que busques en el checklist junto al buscador.
        1. Cuando hayas agregado el nombre de la persona y el tipo de usuario, debes presisonar en el boton de buscar para que aparezcan los distitnos usuarios con esas caracteristicas.
-       1. Cuando termines de agregarlos, unicamente presionas el boton con una palomita y automaticamente te mandara a la pagina principal del chat y aparecera tu grupo.
+       1. Cuando termines de agregarlos, unicamente presionas el boton con una palomita y automaticamente se cerrara la ventana y aparecera tu grupo.
     1. En caso de querer buscar a algun usuario que aun no tengas agregado a tu lista de amigos, tendras que buscar en la esquina superior derecha el boton caracterizado con el simbolo de una lupa y seleccionarlo.
        1. Al momenot de seleccionar la lupa, se te mandara automaticamente a una nueva pagina donde podras buscar entre administrativos, alumnos o maestros, unicamente seleccionando el checklist de tu agrado.
        1. Acontinuación escribiras el nombre de la persona que deseas agregar.
