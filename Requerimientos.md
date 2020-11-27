@@ -61,13 +61,13 @@ Este sistema depende de varios servicios del ITAM, en particular los de inicio d
 
 **3.               Requerimientos de interfaz **   
 **3.1.          Interfaces de usuario**  
-La vista de inicio de sesión de los usuarios  
-- Text “Usuario” que nos indica que el textField de a lado es para ingresar el nombre de usuario.
-- Text “Contraseña”: nos indica que el textField de a lado es para ingresar la contraseña del usuario
-- TextField(Usuario): este textField se utilizara con formato de texto para que el usuario ingrese su nombre de usuario de la aplicación.
-- TextField(Contraseña): este textField se utilizara con formato de contraseña para que el usuario ingrese la contraseña que corresponde con el usuario y conforme vaya escribiendo, esta se irá ocultando marcando únicamente círculos.
-- Button”Olvidé mi contraseña”: este botón lo usaremos para que en caso de que el usuario haya olvidado su contraseña pueda mandarlo a otra página para recuperarla.
-- Button”Ingresar”: Este botón nos llevará a la página del chat de la aplicación de nuestro usuario.
+1. Inicio de sesión
+
+   - Usuario (TextField): este textField se utilizara con formato de texto para que el usuario ingrese su nombre de usuario de la aplicación. El placeholder debe indicar que se trata de un campo de “Usuario”.
+   - Contraseña (TextField): este textField se utilizara con formato de contraseña para que el usuario ingrese la contraseña que corresponde con el usuario y conforme vaya escribiendo, esta se irá ocultando marcando únicamente círculos. El placeholder debe indicar que se trata de un campo de “Contraseña”.
+   - Olvidé mi contraseña (Link): este botón lo usaremos para que en caso de que el usuario haya olvidado su contraseña pueda mandarlo a otra página para recuperarla.
+Ingresar (Button): Este botón nos llevará a la página del chat de la aplicación de nuestro usuario.
+
 
 
 La vista de los usuarios en la pagina del chat  
