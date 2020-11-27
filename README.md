@@ -1,4 +1,4 @@
-# <p align="center" >Los Halcones Galacticos </p>
+# <p align="center" >Los Halcones Galácticos </p>
 
 - El documento de requerimientos de software es: [Requerimientos](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Requerimientos.md)
 
