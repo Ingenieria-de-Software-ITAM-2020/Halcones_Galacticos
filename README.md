@@ -12,3 +12,6 @@
 - El link del prototipo es el siguiente:
 [Prototipo](https://pr.to/9Q0PLU/)
 
+
+- El link de la presentación es el siguiente:
+[Presentación](https://docs.google.com/presentation/d/1jmVibGQ88-eMewvKo2rYXoLNsia_uKSerfT74GW0BVw/edit?usp=sharing)
