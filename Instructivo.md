@@ -17,8 +17,8 @@
  
  1. Chat
  
-     Del lado derecho tendrás tus contactos, tus grupos, los chats con administrativos y los chats de personas que te quieren agregar.
- 
+     Esta es la pantalla principal de la aplicación, consiste en: un panel lateral derecho, en él estan tus contactos, grupos y notificaciones; el contenedor central, que te permite ver la conversación seleccionada, así como redactar y enviar mensajes; y, por último, varios botones, estos permiten que crees un nuego grupo, busques un nuevo usuario o cierres sesión.
+     
  1. Podrás elegir entre los distintos chats.
     1. Si eliges algún chat antiguo, podrás ver la conversación que habías tenido posteriormente con la persona.
     1. Si eliges un chat grupal, veras por colores a cada comentario de cada usuario.
