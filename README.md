@@ -10,6 +10,6 @@
 [Instructivo](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Instructivo.md)
   - Estas instrucciones tienen un video de una simulación sugerida de como usar el sistema. 
 
-- El link del prototipo es el sigueinte:
+- El link del prototipo es el siguiente:
 [Prototipo](https://pr.to/9Q0PLU/)
 
