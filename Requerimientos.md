@@ -121,7 +121,7 @@ Ingresar (Button): Este botón nos llevará a la página del chat de la aplicaci
 
 
 **3.2.          Hardware Interfaces**  
-El producto es una aplicación web, por lo que el único componente físico necesario para su correcto funcionamiento es el servidor en el cual va a estar almacenada la aplicación. Se hará uso de los servidores dados por el ITAM, o en su defecto, servidores privados capaces de soportar el tráfico elevado del sistema.\
+El producto es una aplicación web, por lo que el único componente físico necesario para su correcto funcionamiento es el servidor en el cual va a estar almacenada la aplicación. Se hará uso de los servidores dados por el ITAM, o en su defecto, servidores privados capaces de soportar el tráfico elevado del sistema.
 
 **3.3.          Software Interfaces**  
 Las conexiones que existirían entre nuestro sistema con otros, sería con el sistema de inicio de sesión que se utiliza para comunidad (SSO).  Es necesario conocer toda la información de los alumnos así como las materias a las que está inscrito para de esta forma poder generar los grupos de chat a los que cada alumno podrá tener acceso por default, así como mandar mensaje directamente a sus profesores. A su vez es importante conocer el organigrama interno de las distintas áreas del ITAM para de esta forma poder mandar un mensaje a las distintas áreas administrativas.
