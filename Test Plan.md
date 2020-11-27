@@ -82,10 +82,14 @@ El objetivo de este documento es revisar el proceso de pruebas que se realizará
 -Inicio de sesión utilizando los datos del itam, usuario y contraseña.
 
 -Envío de archivos entre usuarios.
- -Búsqueda de usuarios.
+ 
+-Búsqueda de usuarios.
 
 -Mensajes administrativos sin restricciones.
- -Añadir usuario como contacto.
+
+-Restricciones y vistas de los usuarios
+
+-Añadir usuario como contacto.
 
 -Envío de mensajes.
 
