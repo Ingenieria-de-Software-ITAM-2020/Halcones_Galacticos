@@ -10,7 +10,7 @@ La comunicación entre los estudiantes, los profesores y personal académico se 
 
 
 **1.2.          Convenios de documentos**  
-El sistema es completamente nuevo, por lo que se tiene que adaptar el proyecto a las normas de los sistemas existentes del instituto, en particular a las políticas del ITAM correspondientes al  reglamento de alumnos, así como a los protocolos del personal administrativo. \
+El sistema es completamente nuevo, por lo que se tiene que adaptar el proyecto a las normas de los sistemas existentes del instituto, en particular a las políticas del ITAM correspondientes al  reglamento de alumnos, así como a los protocolos del personal administrativo.
 
 **1.3.          Audiencia prevista y sugerencias de lectura**  
 Este documento está dirigido al equipo de desarrolladores encargado de llevar a cabo el sistema de comunicaciones para los alumnos del ITAM. Para este proyecto solo es necesaria la lectura del presente documento en orden cronológico.  
@@ -318,5 +318,27 @@ Los usuarios están comprometidos a:
 - Los chats que se hagan dentro de la aplicación pueden ser utilizados por el ITAM en caso de ser necesario en cuestiones administrativas, como denuncias de acoso, o casos de deshonestidad académica.
 
 
+**6.               Otros requisitos y consideraciones importantes**  
+**6.1.          Arquitectura por microservicios**  
+
+Debido a que se espera un gran flujo de información debemos procurar que la aplicación sea lo más eficiente posible para todos los usuarios. Los **microservicios** son excelentes para esta aplicación, ya que podemos minimizar la carga en servidores, compartimentalizar el desarrollo de distintos módulos de nuestra aplicación, manejar de manera sencilla las posibles fallas del sistema sin afectar al usuario y soportar un tráfico pesado generado por el chat, que es nuestra funcionalidad principal. Otra ventaja de usar microservicios es que permite reestructurar la aplicación sin interrumpir los servicios de usuario, conforme ésta vaya creciendo.
+
+Los microservicios proporcionan grandes ventajas para este proyecto  debido a la separación de sus partes, una de ellas es la escalabilidad. Cada parte funcionando por separado hace posible que cada una de éstas se puedan escalar una a una, sin tener repercusiones en otras partes, por ejemplo, modificando a los profesores, no se afecta la sección de estudiantes o a la de administrativos, por lo que, en caso de que las pruebas no resulten exitosas, las partes ajenas no estén afectadas.   Anudado a esto se tiene la enorme ventaja de no depender de un solo proveedor, ya que cada área (parte, división) funciona con su propio lenguaje, proveedores, o servicios pero al mismo tiempo existe la comunicación con los otros servicios. 
+
+Debido a su estructura independiente el mantenimiento y las pruebas también resultan fáciles, ya que estos se dan por partes, es decir si se requiere cambiar una parte, las pruebas solo se realizan sobre ese servicio y por ello resulta más fácil que hacerlo en toda la aplicación. Sin embargo, al finalizar las pruebas individuales (especificadas en el punto 16. ‘Schedule’) se toman en cuenta pruebas globales del sistema. 
+
+    No obstante, el monitoreo constante y robusto es un requerimiento ya que cada servicio trabaja con su propia plataforma y diferentes APIs y al tener muchos equipos trabajando simultáneamente en diferentes partes del proyecto, entonces, se necesita un monitoreo continuo para manejar todo esto.  Además el diseño es esencial, ya que debido a sus múltiples partes, se tienen también múltiples fallas, por lo cual se debe prever que no sólo fallará el sistema, sino que fallará muchas veces y en diferentes partes al mismo tiempo, por lo cual es importante tener en cuenta que si falla una parte ésta no altere o provoque fallas en otras, como por ejemplo el tiempo de espera, si un servicio depende de la respuesta de otro y en este otro no se genera una respuesta, entonces se debe prever que es lo que pasará para no generar problemas en otros servicios. 
+
+    Los microservicios resultaron un gran complemento de la metodología Agile, utilizada en este proyecto. Ambos sistemas funcionan de manera similar dividiendo el trabajo en partes y completando cada una de ellas por separado. 
+
+**6.2.          Metodología y justificación**  
+
+La metodología utilizada para este proyecto fue **Agile**. Se optó por esta opción ya que por ser una aplicación institucional se utilizará por una sustancial cantidad de personas debemos estar monitoreando muchos aspectos como la facilidad de manejo, la seguridad y los posibles errores que surjan a lo largo del tiempo, por lo que se debe monitorear de manera activa el sistema ya que el manejo de datos será grande y debe buscarse el mejor funcionamiento de la aplicación. 
+
+También durante la construcción de este por ser la arquitectura de microprocesos debemos poder seguir un orden y un funcionamiento del equipo de tal forma que todos estén en sincronía con los datos, problemas, diseño, etc. para lograr un trabajo eficiente, seguro y bueno. Se optó por esta opción debido al ser un proyecto con tantas vertientes, podemos ir revisando y modificando los avances conforme veamos los resultados, especialmente porque es necesario cumplir con ciertos requerimientos reglamentarios de la institución, debemos ir acomodando los objetivos, tareas y datos para lograr guiar el proyecto hasta los resultados esperados en conjunto con la institución. Beneficia mucho esta metodología ya que podremos avanzar en conjunto y permite que vayamos resolviendo los problemas y adaptemos la aplicación a las necesidades reales de la Institución.
+
+Para hacer este proyecto exitoso, es decir microservicios con desarrollo Agile, fue necesario una gestión de proyecto fuerte. Esto debido a las divisiones de trabajo tanto en la metodología como en la arquitectura elegidas. En particular, al iniciar el proyecto sin esta gestión se vieron algunas complicaciones, por lo que posteriormente se eligió tener una gestión grupal fuerte en la que después de terminar cada parte se hicieran las pruebas, comentarios y correcciones necesarias para que quedara terminada. 
+
+Una de las grandes enseñanzas de este proyecto fue precisamente eso, aprender que con una sólida cultura de colaboración y gestión de proyectos, se logra trabajar de forma más eficaz y completar equipos de trabajos más productivos. 
 
 
