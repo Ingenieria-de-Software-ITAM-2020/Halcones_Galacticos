@@ -1,9 +1,9 @@
 
-**Especificación de requisitos de software para Sistema de comunicaciones del ITAM**  
+# Especificación de requisitos de software para Sistema de comunicaciones del ITAM  
 **Versión 1.0 aprobada**
 
 
-# 1.Introducción  
+## 1.Introducción  
 **1.1.          Propósito**   
 Crear una aplicación que facilite la comunicación entre los estudiantes, el personal académico y el personal administrativo del ITAM. Es indispensable que el proyecto cumpla con los estándares de calidad apropiados, considere las necesidades de los alumnos y cumpla con los valores del instituto.
 La comunicación entre los estudiantes, los profesores y personal académico se dificulta debido a los diferentes horarios de cada uno de ellos, este sistema pretende proveer un ambiente de comunicación ágil y flexible, creando un entorno ameno y más cercano para la comunidad del ITAM. Con este propósito se integra este proyecto, tomando en cuenta estándares de UX, así como los más altos paradigmas de calidad.
@@ -19,7 +19,7 @@ Este documento está dirigido al equipo de desarrolladores encargado de llevar a
 El sistema de comunicación para los alumnos del ITAM es una aplicación web diseñada para que los estudiantes puedan comunicarse con mayor facilidad entre ellos, con sus profesores y con el departamento de servicios académicos. Consolidando de manera eficiente a la comunidad ITAMI
 Considerando poder mandar mensajes de texto, imágenes y distintos tipos de archivos multimedia para poder comunicarse entre ellos.
 
-# 2.               Descripción general  
+## 2.               Descripción general  
 **2.1.          Perspectiva del producto**    
 El sistema está basado en los sistemas de comunicación más efectivos que conocemos, entre ellos whatsapp y messenger (de facebook), pero está adaptada especialmente a las necesidades del alumno y a los principios y reglas de la institución.
 
@@ -59,7 +59,7 @@ Sección de preguntas frecuentes.
 **2.7.          Suposiciones y Dependencias**  
 Este sistema depende de varios servicios del ITAM, en particular los de inicio de sesión e información académica de los alumnos y de los profesores para filtrar los usuarios a los que tienen acceso. Debido a esto se supone que se tiene acceso al servicio de autenticación de alumnos del ITAM, así como a servicios de información académico.   
 
-# 3.               Requerimientos de interfaz     
+## 3.               Requerimientos de interfaz     
 **3.1.          Interfaces de usuario**  
 1. Inicio de sesión
 
@@ -138,7 +138,7 @@ Para el funcionamiento adecuado de la plataforma se necesita:
 - Acceso al API de la institución para consultar la información de los usuarios, profesores, grupos y materias.
 
 
-# 4.               Características del sistema  
+## 4.               Características del sistema  
 4.1. REQ-1 : Buscar a otros usuarios de la plataforma**  
 
 **4.1.1 Descripción y prioridad**  
@@ -287,7 +287,7 @@ Para crear una conversación grupal el usuario hace selecciona la opción de cre
    - En caso de que el usuario intente dejar la pestaña, se notificará a los usuarios que no se han efectuado las acciones, para que ellos decidan si quieren esperar o abandonar la página.
 
 
-# 5.               Otros requisitos no funcionales  
+## 5.               Otros requisitos no funcionales  
 **5.1.          Requisitos de rendimiento (Características)**  
 - Sistema responsivo: Ya que es un sitio de comunicación, la mayor parte de los usuarios intentan consultar el sitio desde sus dispositivos móviles. Es necesario que el sistema se vea bien en dispositivos móviles para mejorar la experiencia de los alumnos, y puedan utilizar el chat desde su navegador o su dispositivo móvil.
 - Sitio Interactivo: La implementación del sitio permite que el usuario interactúe sin la necesidad de cargar la página de nuevo (en particular después de cada submit), creando una experiencia fluida.
@@ -318,7 +318,7 @@ Los usuarios están comprometidos a:
 - Los chats que se hagan dentro de la aplicación pueden ser utilizados por el ITAM en caso de ser necesario en cuestiones administrativas, como denuncias de acoso, o casos de deshonestidad académica.
 
 
-# 6.               Otros requisitos y consideraciones importantes  
+## 6.               Otros requisitos y consideraciones importantes  
 **6.1.          Arquitectura por microservicios**  
 
 Debido a que se espera un gran flujo de información debemos procurar que la aplicación sea lo más eficiente posible para todos los usuarios. Los **microservicios** son excelentes para esta aplicación, ya que podemos minimizar la carga en servidores, compartimentalizar el desarrollo de distintos módulos de nuestra aplicación, manejar de manera sencilla las posibles fallas del sistema sin afectar al usuario y soportar un tráfico pesado generado por el chat, que es nuestra funcionalidad principal. Otra ventaja de usar microservicios es que permite reestructurar la aplicación sin interrumpir los servicios de usuario, conforme ésta vaya creciendo.
