@@ -1,10 +1,9 @@
 # <p align="center" >Los_Halcones_Galacticos </p>
 [link to TPO](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/TPO.md)
 
-1. FEATURES TO BE TESTED
-    1. (High) 
+
 Comunicación Colmillo:
-1.
+1. 
     1. Encender el dispositivo en el que accederas a la aplicación
     1. Configurar tu conexión a internet o verificar la conectividad
     1. Ingresar a algun explorador
