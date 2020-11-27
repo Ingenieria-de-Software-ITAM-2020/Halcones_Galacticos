@@ -59,7 +59,7 @@ Sección de preguntas frecuentes.
 **2.7.          Suposiciones y Dependencias**  
 Este sistema depende de varios servicios del ITAM, en particular los de inicio de sesión e información académica de los alumnos y de los profesores para filtrar los usuarios a los que tienen acceso. Debido a esto se supone que se tiene acceso al servicio de autenticación de alumnos del ITAM, así como a servicios de información académico.   
 
-**3.               Requerimientos de interfaz **   
+**3.               Requerimientos de interfaz**     
 **3.1.          Interfaces de usuario**  
 1. Inicio de sesión
 
@@ -97,12 +97,12 @@ Ingresar (Button): Este botón nos llevará a la página del chat de la aplicaci
    - Crear (Button): Este botón creará un grupo nuevo después de haber seleccionado a los usuarios que deseamos agregar al grupo.
    ![Alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/5.png "Optional Title")
    
-1. Ventana secundaria: Seleccionar archivos
+1. Ventana secundaria: Selección de archivos
 
    - Adjuntar archivo (Button): Este botón abrirá una pantalla del explorador de archivos de tu equipo para que puedas seleccionar el archivo que deseas subir, cuando lo selecciones, comenzará a cargar el archivo y será enviado una vez que haya sido cargado.
    ![Alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/9.png "Optional Title")
    
-1. Pantalla secundaria: Busqueda
+1. Pantalla secundaria: BÚsqueda
 
    - Buscador (TextField): este se utilizara para escribir el nombre del usuario a buscar, se tendrá que escribir el nombre en este textfield para poder posteriormente presionar el botón de “Buscar”.
    - Tipo de usuario (Radio List): en esta lista de radio buttons se puede seleccionar el tipo de usuario que buscas, para filtrar y mostrar los resultados más relevantes. Aparte de los resultados exactos, se muestra una lista de usuarios que coinciden de alguna forma con el criterio de búsqueda.
@@ -152,24 +152,24 @@ Este requerimiento tiene una prioridad alta, pues es necesario que los usuarios 
 El usuario hace click en el botón de “Buscar”, posteriormente filtra el tipo de usuario que desea contactar y realiza la búsqueda.
 
 **4.1.3 Requisitos funcionales**  
-Detalles
-Alcance: Que cada usuario pueda buscar a otros usuarios en la plataforma.
-Prioridad: Alta.
-Nivel: Cuenta de alumnos, profesores y personal administrativo.
-Condiciones: Haber iniciado sesión y hacer click en el botón correspondiente.
-Consiste en:
-Habilitar la funcionalidad de búsqueda de usuarios a cada tipo de perfil, se deben considerar las restricciones de privacidad pertinentes (oportunidad de mandar solicitud de mensaje si esa persona no tiene relación directa con el usuario).
-Los alumnos tienen la posibilidad de filtrar la búsqueda.
-Un botón de “Buscar”, y una lista que contenga los resultados de búsqueda.
-Escenario de éxito:
-El usuario escribe los datos necesarios para la búsqueda y obtiene como resultado una lista que contiene al usuario correspondiente.
-Escenario de errores:
-No existe ningún usuario que posea los datos introducidos, en este caso se despliega el mensaje de error correspondiente.
-Casos de uso: 
-- El alumno busca a otros alumnos priorizando los que estén en su mismo salón (por nombre).
-- El alumno busca a un profesor (por departamento o por nombre).
-- El alumno busca a un miembro del personal administrativo (por departamento).
-- El profesor y el personal administrativo pueden buscar alumnos (por grupo, nombre o clave única).
+- Detalles
+   - Alcance: Que cada usuario pueda buscar a otros usuarios en la plataforma.
+   - Prioridad: Alta.
+   - Nivel: Cuenta de alumnos, profesores y personal administrativo.
+   - Condiciones: Haber iniciado sesión y hacer click en el botón correspondiente.
+- Consiste en: 
+   - Habilitar la funcionalidad de búsqueda de usuarios a cada tipo de perfil, se deben considerar las restricciones de privacidad pertinentes (oportunidad de mandar solicitud de mensaje si esa persona no tiene relación directa con el usuario).
+   - Los alumnos tienen la posibilidad de filtrar la búsqueda.
+   - Un botón de “Buscar”, y una lista que contenga los resultados de búsqueda.
+- Escenario de éxito:
+   - El usuario escribe los datos necesarios para la búsqueda y obtiene como resultado una lista que contiene al usuario correspondiente.
+- Escenario de errores:
+   - No existe ningún usuario que posea los datos introducidos, en este caso se despliega el mensaje de error correspondiente.
+- Casos de uso: 
+   - El alumno busca a otros alumnos priorizando los que estén en su mismo salón (por nombre).
+   - El alumno busca a un profesor (por departamento o por nombre).
+   - El alumno busca a un miembro del personal administrativo (por departamento).
+   - El profesor y el personal administrativo pueden buscar alumnos (por grupo, nombre o clave única).
 La búsqueda del profesor prioriza a los alumnos que están inscritos en alguna de sus clases.
 
 **4.2. REQ-2 : Mandar mensajes**  
@@ -180,10 +180,10 @@ La comunicación es entre alumnos,  profesores y personal del departamento admin
 
 Los detalles importantes que se tienen que tomar en cuenta son que:
 
-Sea posible  mandar mensajes de texto o archivos adjuntos (imágenes, documentos, etc.).
-Los usuarios (alumnos y profesores) puedan deshacer el envío de mensajes en el primer minuto de envío.
-El profesor puede marcar un mensaje como “anuncio importante” (mensajes que informan acerca de exámenes, bajas, calificaciones, revisiones, etc.) en los chats grupales.
-Este requerimiento tiene una prioridad alta, pues es la funcionalidad principal de la aplicación.
+- Sea posible  mandar mensajes de texto o archivos adjuntos (imágenes, documentos, etc.).
+- Los usuarios (alumnos y profesores) puedan deshacer el envío de mensajes en el primer minuto de envío.
+- El profesor puede marcar un mensaje como “anuncio importante” (mensajes que informan acerca de exámenes, bajas, calificaciones, revisiones, etc.) en los chats grupales.
+- Este requerimiento tiene una prioridad alta, pues es la funcionalidad principal de la aplicación.
 
 **4.2.2 Secuencias de estímulo/respuesta**  
 Una vez que el usuario ha encontrado al usuario que desea contactar, hace click en el botón correspondiente para enviar un mensaje. Esto abre la conversación entre los dos usuarios, donde se puede redactar y enviar el mensaje.
@@ -196,15 +196,15 @@ Una vez que el usuario ha encontrado al usuario que desea contactar, hace click 
   - Nivel: Todos los usuarios de la plataforma (alumnos, profesores y personal administrativo)
 - Condiciones: Iniciar sesión y que ambos usuarios estén en el mismo grupo o tengan un acuerdo mutuo de comunicación.
 Consiste en:
-Una pantalla que contenga la conversación entre los individuos que se quieren comunicar.
-Implementar comunicaciones por mensaje en tiempo real (Como messenger y whatsapp).
-Mensaje de solicitud de iniciar una conversación.
+- Una pantalla que contenga la conversación entre los individuos que se quieren comunicar.
+- Implementar comunicaciones por mensaje en tiempo real (Como messenger y whatsapp).
+- Mensaje de solicitud de iniciar una conversación.
 Escenario de éxito:
-Todos los usuarios son capaces de redactar, enviar y recibir mensajes de distintos usuarios.
+- Todos los usuarios son capaces de redactar, enviar y recibir mensajes de distintos usuarios.
 Escenario de errores:
-En caso de no tener conexión a internet, se van a mandar los mensajes tan pronto se restablezca la conexión.
-En caso de intentar cerrar la pestaña mientras que aún no se envían los mensajes, se va a notificar al usuario para que decida si quiere abandonar la página o no.
-En caso de no tener permiso de contactar al otro usuario, notificar al usuario que no cuenta con el permiso de hablar con la otra persona.
+- En caso de no tener conexión a internet, se van a mandar los mensajes tan pronto se restablezca la conexión.
+- En caso de intentar cerrar la pestaña mientras que aún no se envían los mensajes, se va a notificar al usuario para que decida si quiere abandonar la página o no.
+- En caso de no tener permiso de contactar al otro usuario, notificar al usuario que no cuenta con el permiso de hablar con la otra persona.
 
 
 
@@ -218,10 +218,10 @@ Los usuarios pueden ver su lista de conversaciones, estas incluyen: Conversacion
 
 Detalles importantes:
 
-Los usuarios pueden activar o desactivar notificaciones de la conversación que desee.
-Las conversaciones pueden ser archivadas. 
-El usuario puede reportar una conversación para someterla a revisión (En caso de que alguien mande contenido inapropiado o tenga una conducta que vaya en contra de los principios del instituto).
-La lista debe facilitar ver las solicitudes de mensajes.
+- Los usuarios pueden activar o desactivar notificaciones de la conversación que desee.
+- Las conversaciones pueden ser archivadas. 
+- El usuario puede reportar una conversación para someterla a revisión (En caso de que alguien mande contenido inapropiado o tenga una conducta que vaya en contra de los principios del instituto).
+- La lista debe facilitar ver las solicitudes de mensajes.
 
 Ver la lista de conversaciones activas tiene prioridad alta, debido a que es parte del MVP y sin la lista no es posible cambiar de conversaciones ni ver mensajes pasados. 
 Las funcionalidades como las notificaciones y archivar conversaciones activas tienen prioridad media, pues mejoran la interfaz del usuario, pero no tiene que ser parte del MVP.
@@ -232,25 +232,25 @@ Si el usuario hace clic en una conversación (en el panel lateral que contiene l
 
 **4.3.3 Requisitos funcionales**  
 - Detalles
- - Alcance: Mostrar una lista de conversaciones abiertas en un panel lateral izquierdo. Es necesario mostrar las notificaciones, dar la posibilidad de reportar el chat por abuso, silenciar las notificaciones de usuario y permitir que el usuario archive la conversación .
-- Prioridad: Alta (la lista de conversaciones) y Media (Funcionalidad extra).
-- Nivel: Todos los usuarios (Alumnos, profesores y departamento administrativo).
-- Condiciones: Iniciar sesión y pertenecer a un grupo o tener consentimiento de comunicación.
+   - Alcance: Mostrar una lista de conversaciones abiertas en un panel lateral izquierdo. Es necesario mostrar las notificaciones, dar la posibilidad de reportar el chat por abuso, silenciar las notificaciones de usuario y permitir que el usuario archive la conversación .
+   - Prioridad: Alta (la lista de conversaciones) y Media (Funcionalidad extra).
+   - Nivel: Todos los usuarios (Alumnos, profesores y departamento administrativo).
+   - Condiciones: Iniciar sesión y pertenecer a un grupo o tener consentimiento de comunicación.
 - Consiste en:
- - Un panel lateral con la lista que contiene todas las conversaciones activas y previas.
- - Que cada conversación notifique al usuario la cantidad de mensajes nuevos.
-En los settings de la conversación dar la capacidad de mutar.
-En los settings de la conversación dar la capacidad de reportar (En caso de conducta inapropiada por alguna de las partes).
-Organizar las conversaciones por fecha y separar las conversaciones por semestre.
+   - Un panel lateral con la lista que contiene todas las conversaciones activas y previas.
+   - Que cada conversación notifique al usuario la cantidad de mensajes nuevos.
+   - En los settings de la conversación dar la capacidad de mutar.
+   - En los settings de la conversación dar la capacidad de reportar (En caso de conducta inapropiada por alguna de las partes).
+   - Organizar las conversaciones por fecha y separar las conversaciones por semestre.
 
 
 Escenario de éxito:
-El usuario puede ver la lista de conversaciones previas.
-Puede entrar a cualquier chat de su lista para redactar, enviar y recibir mensajes.
-En caso de ser necesario puede silenciar o reportar una plática.
+- El usuario puede ver la lista de conversaciones previas.
+- Puede entrar a cualquier chat de su lista para redactar, enviar y recibir mensajes.
+- En caso de ser necesario puede silenciar o reportar una plática.
 Escenario de errores:
-En caso de no contar con conexión a internet se va a guardar las acciones realizadas por el usuario y se va a esperar a la reconexión para efectuarlas.
-En caso de que el usuario intente dejar la pestaña, se notificará a los usuarios que no se han efectuado las acciones, para que ellos decidan si quieren esperar o abandonar la página.
+- En caso de no contar con conexión a internet se va a guardar las acciones realizadas por el usuario y se va a esperar a la reconexión para efectuarlas.
+- En caso de que el usuario intente dejar la pestaña, se notificará a los usuarios que no se han efectuado las acciones, para que ellos decidan si quieren esperar o abandonar la página.
 
 
 
@@ -273,18 +273,18 @@ Para crear una conversación grupal el usuario hace selecciona la opción de cre
 **4.4.3 Requisitos funcionales**  
 - Detalles
    - Alcance: Agregar una opción en la interfaz que permita crear un chat grupal. Para cada grupo crear de manera automática una conversación donde participen todos los alumnos y el profesor.
-  - Prioridad: Media.
-  - Nivel: Alumnos y profesores.
-  - Condiciones: Iniciar sesión y pertenecer a un grupo o tener consentimiento de comunicación.
+   - Prioridad: Media.
+   - Nivel: Alumnos y profesores.
+   - Condiciones: Iniciar sesión y pertenecer a un grupo o tener consentimiento de comunicación.
 - Consiste en:
- - Un botón que permita crear una conversación grupal.
- - Una lista que contenga a los posibles participantes de la conversación.
+   - Un botón que permita crear una conversación grupal.
+   - Una lista que contenga a los posibles participantes de la conversación.
 
 - Escenario de éxito:
- - Los usuarios son capaces de crear una sala grupal.
+   - Los usuarios son capaces de crear una sala grupal.
 - Escenario de errores:
- - En caso de no contar con conexión a internet se va a guardar las acciones realizadas por el usuario y se va a esperar a la reconexión para efectuarlas.
- - En caso de que el usuario intente dejar la pestaña, se notificará a los usuarios que no se han efectuado las acciones, para que ellos decidan si quieren esperar o abandonar la página.
+   - En caso de no contar con conexión a internet se va a guardar las acciones realizadas por el usuario y se va a esperar a la reconexión para efectuarlas.
+   - En caso de que el usuario intente dejar la pestaña, se notificará a los usuarios que no se han efectuado las acciones, para que ellos decidan si quieren esperar o abandonar la página.
 
 
 **5.               Otros requisitos no funcionales**  
@@ -313,9 +313,9 @@ Los usuarios están comprometidos a:
 - Rendición de cuentas: Se lleva registro de todas las actividades realizadas por todos los usuarios, e historial de todas las comunicaciones llevando un log con timestamp para esclarecer cualquier problema.  
 
 **5.5.          Reglas de negocios**  
-Un alumno debe estar inscrito en el ITAM para poder ingresar, el personal docente y administrativo debe trabajar en la institución.   
-Una vez que el alumno deja de estudiar en el ITAM su cuenta es deshabilitada.  
-Los chats que se hagan dentro de la aplicación pueden ser utilizados por el ITAM en caso de ser necesario en cuestiones administrativas, como denuncias de acoso, o casos de deshonestidad académica.
+- Un alumno debe estar inscrito en el ITAM para poder ingresar, el personal docente y administrativo debe trabajar en la institución.   
+- Una vez que el alumno deja de estudiar en el ITAM su cuenta es deshabilitada.  
+- Los chats que se hagan dentro de la aplicación pueden ser utilizados por el ITAM en caso de ser necesario en cuestiones administrativas, como denuncias de acoso, o casos de deshonestidad académica.
 
 
 
