@@ -1,22 +1,21 @@
 
-**Especificación de requisitos de software
-ParaSistema de comunicaciones del ITAM  
-Versión 1.0 aprobada**
+**Especificación de requisitos de software para Sistema de comunicaciones del ITAM**  
+**Versión 1.0 aprobada**
 
 
-**1.Introducción**\
+**1.Introducción**  
 **1.1.          Propósito**   
 Crear una aplicación que facilite la comunicación entre los estudiantes, el personal académico y el personal administrativo del ITAM. Es indispensable que el proyecto cumpla con los estándares de calidad apropiados, considere las necesidades de los alumnos y cumpla con los valores del instituto.
 La comunicación entre los estudiantes, los profesores y personal académico se dificulta debido a los diferentes horarios de cada uno de ellos, este sistema pretende proveer un ambiente de comunicación ágil y flexible, creando un entorno ameno y más cercano para la comunidad del ITAM. Con este propósito se integra este proyecto, tomando en cuenta estándares de UX, así como los más altos paradigmas de calidad.
 
 
-**1.2.          Convenios de documentos** \
+**1.2.          Convenios de documentos**  
 El sistema es completamente nuevo, por lo que se tiene que adaptar el proyecto a las normas de los sistemas existentes del instituto, en particular a las políticas del ITAM correspondientes al  reglamento de alumnos, así como a los protocolos del personal administrativo. \
 
-**1.3.          Audiencia prevista y sugerencias de lectura**\
+**1.3.          Audiencia prevista y sugerencias de lectura**  
 Este documento está dirigido al equipo de desarrolladores encargado de llevar a cabo el sistema de comunicaciones para los alumnos del ITAM. Para este proyecto solo es necesaria la lectura del presente documento en orden cronológico.  
 
-**1.4.          Alcance del producto**\
+**1.4.          Alcance del producto**  
 El sistema de comunicación para los alumnos del ITAM es una aplicación web diseñada para que los estudiantes puedan comunicarse con mayor facilidad entre ellos, con sus profesores y con el departamento de servicios académicos. Consolidando de manera eficiente a la comunidad ITAMI
 Considerando poder mandar mensajes de texto, imágenes y distintos tipos de archivos multimedia para poder comunicarse entre ellos.
 
@@ -162,11 +161,11 @@ Una vez que el usuario ha encontrado al usuario que desea contactar, hace click 
 
 
 **4.2.3 Requisitos funcionales**  
-Detalles
-Alcance: Que todos los usuarios puedan mandar mensajes
-Prioridad: Alta
-Nivel: Todos los usuarios de la plataforma (alumnos, profesores y personal administrativo)
-Condiciones: Iniciar sesión y que ambos usuarios estén en el mismo grupo o tengan un acuerdo mutuo de comunicación.
+- Detalles
+  - Alcance: Que todos los usuarios puedan mandar mensajes
+  - Prioridad: Alta
+  - Nivel: Todos los usuarios de la plataforma (alumnos, profesores y personal administrativo)
+- Condiciones: Iniciar sesión y que ambos usuarios estén en el mismo grupo o tengan un acuerdo mutuo de comunicación.
 Consiste en:
 Una pantalla que contenga la conversación entre los individuos que se quieren comunicar.
 Implementar comunicaciones por mensaje en tiempo real (Como messenger y whatsapp).
@@ -203,17 +202,19 @@ Debido a la importancia y a lo frecuente que se puede realizar esta acción, la 
 Si el usuario hace clic en una conversación (en el panel lateral que contiene las conversaciones abiertas), se muestra la conversación con ese usuario.
 
 **4.3.3 Requisitos funcionales**  
-Detalles
-Alcance: Mostrar una lista de conversaciones abiertas en un panel lateral izquierdo. Es necesario mostrar las notificaciones, dar la posibilidad de reportar el chat por abuso, silenciar las notificaciones de usuario y permitir que el usuario archive la conversación .
-Prioridad: Alta (la lista de conversaciones) y Media (Funcionalidad extra).
-Nivel: Todos los usuarios (Alumnos, profesores y departamento administrativo).
-Condiciones: Iniciar sesión y pertenecer a un grupo o tener consentimiento de comunicación.
-Consiste en:
-Un panel lateral con la lista que contiene todas las conversaciones activas y previas.
-Que cada conversación notifique al usuario la cantidad de mensajes nuevos.
+- Detalles
+ - Alcance: Mostrar una lista de conversaciones abiertas en un panel lateral izquierdo. Es necesario mostrar las notificaciones, dar la posibilidad de reportar el chat por abuso, silenciar las notificaciones de usuario y permitir que el usuario archive la conversación .
+- Prioridad: Alta (la lista de conversaciones) y Media (Funcionalidad extra).
+- Nivel: Todos los usuarios (Alumnos, profesores y departamento administrativo).
+- Condiciones: Iniciar sesión y pertenecer a un grupo o tener consentimiento de comunicación.
+- Consiste en:
+ - Un panel lateral con la lista que contiene todas las conversaciones activas y previas.
+ - Que cada conversación notifique al usuario la cantidad de mensajes nuevos.
 En los settings de la conversación dar la capacidad de mutar.
 En los settings de la conversación dar la capacidad de reportar (En caso de conducta inapropiada por alguna de las partes).
 Organizar las conversaciones por fecha y separar las conversaciones por semestre.
+
+
 Escenario de éxito:
 El usuario puede ver la lista de conversaciones previas.
 Puede entrar a cualquier chat de su lista para redactar, enviar y recibir mensajes.
@@ -232,8 +233,8 @@ Esta funcionalidad permite a los alumnos y profesores crear chats grupales, tamb
 
 Detalles importantes:
 
-Los usuarios administradores pueden cerrar los grupos que están archivados.
-Los usuarios pueden salirse de los grupos a los que no quieran pertenecer.
+- Los usuarios administradores pueden cerrar los grupos que están archivados.
+- Los usuarios pueden salirse de los grupos a los que no quieran pertenecer.
 
 Esta funcionalidad tiene una prioridad media, debido a que aunque es importante y pertenece al MVP, no es crucial para el funcionamiento de la plataforma.
  
@@ -241,49 +242,50 @@ Esta funcionalidad tiene una prioridad media, debido a que aunque es importante 
 Para crear una conversación grupal el usuario hace selecciona la opción de crear un nuevo grupo y posteriormente selecciona de una lista de usuarios por grupo a todos los integrantes que quiere añadir.
 
 **4.4.3 Requisitos funcionales**  
-Detalles
-Alcance: Agregar una opción en la interfaz que permita crear un chat grupal. Para cada grupo crear de manera automática una conversación donde participen todos los alumnos y el profesor.
-Prioridad: Media.
-Nivel: Alumnos y profesores.
-Condiciones: Iniciar sesión y pertenecer a un grupo o tener consentimiento de comunicación.
-Consiste en:
-Un botón que permita crear una conversación grupal.
-Una lista que contenga a los posibles participantes de la conversación.
+- Detalles
+ - Alcance: Agregar una opción en la interfaz que permita crear un chat grupal. Para cada grupo crear de manera automática una conversación donde participen todos los alumnos y el profesor.
+- Prioridad: Media.
+- Nivel: Alumnos y profesores.
+- Condiciones: Iniciar sesión y pertenecer a un grupo o tener consentimiento de comunicación.
+- Consiste en:
+ - Un botón que permita crear una conversación grupal.
+ - Una lista que contenga a los posibles participantes de la conversación.
 
-Escenario de éxito:
-Los usuarios son capaces de crear una sala grupal.
-Escenario de errores:
-En caso de no contar con conexión a internet se va a guardar las acciones realizadas por el usuario y se va a esperar a la reconexión para efectuarlas.
-En caso de que el usuario intente dejar la pestaña, se notificará a los usuarios que no se han efectuado las acciones, para que ellos decidan si quieren esperar o abandonar la página.
+- Escenario de éxito:
+ - Los usuarios son capaces de crear una sala grupal.
+- Escenario de errores:
+ - En caso de no contar con conexión a internet se va a guardar las acciones realizadas por el usuario y se va a esperar a la reconexión para efectuarlas.
+ - En caso de que el usuario intente dejar la pestaña, se notificará a los usuarios que no se han efectuado las acciones, para que ellos decidan si quieren esperar o abandonar la página.
 
 
 **5.               Otros requisitos no funcionales**  
 **5.1.          Requisitos de rendimiento (Características)**  
-Sistema responsivo: Ya que es un sitio de comunicación, la mayor parte de los usuarios intentan consultar el sitio desde sus dispositivos móviles. Es necesario que el sistema se vea bien en dispositivos móviles para mejorar la experiencia de los alumnos, y puedan utilizar el chat desde su navegador o su dispositivo móvil.
-Sitio Interactivo: La implementación del sitio permite que el usuario interactúe sin la necesidad de cargar la página de nuevo (en particular después de cada submit), creando una experiencia fluida.
-Sistema con protocolos de concurrencia: al ser un sitio de comunicación entre alumnos es muy importante considerar el uso continuo y simultáneo de todos los usuarios, siempre considerando la velocidad de recepción de los mensajes.
+- Sistema responsivo: Ya que es un sitio de comunicación, la mayor parte de los usuarios intentan consultar el sitio desde sus dispositivos móviles. Es necesario que el sistema se vea bien en dispositivos móviles para mejorar la experiencia de los alumnos, y puedan utilizar el chat desde su navegador o su dispositivo móvil.
+- Sitio Interactivo: La implementación del sitio permite que el usuario interactúe sin la necesidad de cargar la página de nuevo (en particular después de cada submit), creando una experiencia fluida.
+- Sistema con protocolos de concurrencia: al ser un sitio de comunicación entre alumnos es muy importante considerar el uso continuo y simultáneo de todos los usuarios, siempre considerando la velocidad de recepción de los mensajes.
 
 **5.2.          Requisitos de seguridad**  
-Inicio de sesión SSO. Al ser un sistema de comunicación donde se maneje información importante o de relevancia para los estudiantes y administrativos se debe asegurar la integridad de los datos e información que ahí se encuentren.
-No cargar datos innecesarios. Al usar solo la información necesaria (sin sacrificar una experiencia placentera del usuario), aseguramos que no habrá pérdida ni abuso de información.
-Usar certificado del sitio para que los datos naveguen de manera segura (SSL)
-Los chats son cifrados y solamente son accesibles para los usuarios involucrados y la institución en caso necesario.
+- Inicio de sesión SSO. Al ser un sistema de comunicación donde se maneje información importante o de relevancia para los estudiantes y administrativos se debe asegurar la integridad de los datos e información que ahí se encuentren.
+- No cargar datos innecesarios. Al usar solo la información necesaria (sin sacrificar una experiencia placentera del usuario), aseguramos que no habrá pérdida ni abuso de información.
+- Usar certificado del sitio para que los datos naveguen de manera segura (SSL)
+- Los chats son cifrados y solamente son accesibles para los usuarios involucrados y la institución en caso necesario.
 
 **5.3.          Requisitos de seguridad de la plataforma**  
 Los usuarios están comprometidos a:
-No compartir su cuenta con ninguna otra persona.
-Limitarse a un uso adecuado de la información contenida en el sitio, esto es, solo con el fin de comunicarse con la comunidad estudiantil, para fines académicos y de convivencia institucional.  
+- No compartir su cuenta con ninguna otra persona.
+- Limitarse a un uso adecuado de la información contenida en el sitio, esto es, solo con el fin de comunicarse con la comunidad estudiantil, para fines académicos y de convivencia institucional.  
 
 **5.4.          Atributos de calidad de software**
-Confidencialidad: Se implementan distintas políticas para asegurar la información de los usuarios y el instituto: Solo se usa la información necesaria (Teniendo un buen balance con la experiencia de usuario), y; Se encripta la información al enviarla al navegador y al mandar peticiones a nuestros servidores.
-Integridad: Los datos son correctos y confiables. Toda la información consultada por el alumno proviene únicamente del ITAM. Por otra parte, se implementan protocolos de concurrencia.  
-Disponibilidad: Ya que es un sistema de comunicación para usuarios de la institución se considera un tiempo de disponibilidad del 99 % teniendo considerado un servidor en paralelo para entrar en caso de caída del sistema principal de esta forma evitar grandes tiempos de falta de operación.
-Autenticación: Validamos la identidad de los usuarios a través del sistema de autenticación del ITAM, por lo que no generamos vulnerabilidades adicionales, ni almacenamos información sensible de los usuarios.
-Autorización: Cada alumno solo tiene permiso de consultar y modificar información asociada a su cuenta. Manteniendo siempre solamente los permisos de su tipo de usuario. No tiene medios para alterar datos que no sean suyos.
-Rendición de cuentas: Se lleva registro de todas las actividades realizadas por todos los usuarios, e historial de todas las comunicaciones llevando un log con timestamp para esclarecer cualquier problema.
-5.5.          Reglas de negocios
-Un alumno debe estar inscrito en el ITAM para poder ingresar, el personal docente y administrativo debe trabajar en la institución. 
-Una vez que el alumno deja de estudiar en el ITAM su cuenta es deshabilitada.
+- Confidencialidad: Se implementan distintas políticas para asegurar la información de los usuarios y el instituto: Solo se usa la información necesaria (Teniendo un buen balance con la experiencia de usuario), y; Se encripta la información al enviarla al navegador y al mandar peticiones a nuestros servidores.
+- Integridad: Los datos son correctos y confiables. Toda la información consultada por el alumno proviene únicamente del ITAM. Por otra parte, se implementan protocolos de concurrencia.  
+- Disponibilidad: Ya que es un sistema de comunicación para usuarios de la institución se considera un tiempo de disponibilidad del 99 % teniendo considerado un servidor en paralelo para entrar en caso de caída del sistema principal de esta forma evitar grandes tiempos de falta de operación.
+- Autenticación: Validamos la identidad de los usuarios a través del sistema de autenticación del ITAM, por lo que no generamos vulnerabilidades adicionales, ni almacenamos información sensible de los usuarios.
+- Autorización: Cada alumno solo tiene permiso de consultar y modificar información asociada a su cuenta. Manteniendo siempre solamente los permisos de su tipo de usuario. No tiene medios para alterar datos que no sean suyos.
+- Rendición de cuentas: Se lleva registro de todas las actividades realizadas por todos los usuarios, e historial de todas las comunicaciones llevando un log con timestamp para esclarecer cualquier problema.  
+
+**5.5.          Reglas de negocios**  
+Un alumno debe estar inscrito en el ITAM para poder ingresar, el personal docente y administrativo debe trabajar en la institución.   
+Una vez que el alumno deja de estudiar en el ITAM su cuenta es deshabilitada.  
 Los chats que se hagan dentro de la aplicación pueden ser utilizados por el ITAM en caso de ser necesario en cuestiones administrativas, como denuncias de acoso, o casos de deshonestidad académica.
 
 
