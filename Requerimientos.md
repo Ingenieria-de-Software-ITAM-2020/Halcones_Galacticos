@@ -67,7 +67,7 @@ Este sistema depende de varios servicios del ITAM, en particular los de inicio d
    - Contraseña (TextField): este textField se utilizara con formato de contraseña para que el usuario ingrese la contraseña que corresponde con el usuario y conforme vaya escribiendo, esta se irá ocultando marcando únicamente círculos. El placeholder debe indicar que se trata de un campo de “Contraseña”.
    - Olvidé mi contraseña (Link): este botón lo usaremos para que en caso de que el usuario haya olvidado su contraseña pueda mandarlo a otra página para recuperarla.
 Ingresar (Button): Este botón nos llevará a la página del chat de la aplicación de nuestro usuario.
-
+[[https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/1.png|alt=octocat]]
 
 
 La vista de los usuarios en la pagina del chat  
