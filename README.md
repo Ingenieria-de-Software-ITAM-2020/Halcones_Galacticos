@@ -4,7 +4,7 @@
 
 
 - El archivo que contiene el plan de calidad del proyecto es:
-[Plan de Calidad](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Plan%20de%20Calidad.md)
+[Plan de Calidad](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Test%20Plan.md)
 
 - Las instrucciones para replicar el prototipo se encuentran en: 
 [Instructivo](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Instructivo.md)
