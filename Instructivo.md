@@ -23,24 +23,25 @@ Comunicación Colmillo:
        1. En caso de que selecciones que aceptas la solicitud de la persona, te mostrara los mensajes que te haya intentado enviar.
     1. En caso de querer realizar un grupo nuevo tendremos la opción de crearlos en la esquina superior derecha, este se podra identificar facilmente con el signo de "+".
        1. Cuando presiones el signo de "+", te abrira a una nueva pagina donde podras buscar dentro de tus contactos a las personas que quieress agregar al grupo e ir seleccionandolas.
-       1. Podras buscar entre alumnos, administrativos y maestros seleccionando las opcion o opciones que busques en el checklist junto al buscador.
-       1. Cuando hayas agregado el nombre de la persona y el tipo de usuario, debes presisonar en el boton de buscar para que aparezcan los distitnos usuarios con esas caracteristicas.
-       1. Cuando termines de agregarlos, unicamente presionas el boton con una palomita y automaticamente se cerrara la ventana y aparecera tu grupo.
+       1. Podras ver a tus contactos e ir seleccionando a quien agregar presionando el boton del signo "+" que se encuentra junto a su nombre
+       1. Cuando termines de agregarlos, unicamente presionas el boton de crear, y automaticamente se cerrara la ventana y aparecera tu grupo.
     1. En caso de querer buscar a algun usuario que aun no tengas agregado a tu lista de amigos, tendras que buscar en la esquina superior derecha el boton caracterizado con el simbolo de una lupa y seleccionarlo.
-       1. Al momenot de seleccionar la lupa, se te mandara automaticamente a una nueva pagina donde podras buscar entre administrativos, alumnos o maestros, unicamente seleccionando el checklist de tu agrado.
+       1. Al momento de seleccionar la lupa, se te mandara automaticamente a una nueva pagina donde podras buscar entre administrativos, alumnos o maestros, unicamente seleccionando el checklist de tu agrado.
        1. Acontinuación escribiras el nombre de la persona que deseas agregar.
        1. Cuando encuentres a la persona, la seleccionaras y presionaras la flechita de la fila donde se encuentra el nombre del usuario que buscas.
-       1. Al presionar la flechita, te mandara a la pantalla principal del chat y saldra esa persona al principio y ya se habra mandado la solicitud.
+       1. Al presionar la flechita, te abrira una ventana que te informara que se ha mandado la solicitud.
+       1. A continuación te mandara a la pantalla principal del chat y saldra esa persona al principio, junto con su icono de que ya se le envio la solicitud.
        1. Ahora podras chatear con ese usuario en cuanto acepte tu solicitud.
     1. En caso de querer mandar un mensaje a algun usuario que posteriormente tengas como amigo, tendras que ubicar el recuadro en la parte inferior, donde podras escribir tu mensaje.
        1. A continuación, cuando termines de escribir el mensaje, tendras que buscar un botón color verde con una flecha, este botón se encuentra en la esquina inferior derecha.
        1. Despues de ubicarlo y tener el mensaje listo, lo presionaras y automaticamente el mensaje sera enviado y el recuadro de texto sera borrado para que continues enviando mensajes.
     1. En caso que desees enviar un archivo, tendras que ubicar el botón blanco con un icono de un clip, que se encuentra en la esquina inferior derecha.
-       1. Al presionar este botón, automaticamente se abrira una nueva ventana del explorador de archivos de tu computadora.
+       1. Al presionar este botón, automaticamente te abrira una pequeña ventana nueva.
+       1. En esta ventana sera donde se cargaran tus archivos despues de seleccionarlos, para subir los archivos, podras arrastrar los archivos hasta esa ventana, o podra presionar el boton de seleccionar y automaticamente se abrira una nueva ventana del explorador de archivos de tu computadora.
        1. En esta ventana nueva, buscaras el archivo a enviar y lo seleccionaras.
        1. Al seleccionarlo tendra que presionar el botón que dice "Abrir" en el explorador de archivos.
-       1. Despues de presionar "Abrir", comenzara a cargar el archivo y en cuanto termine de cargar, podras seleccionar el boton verde con un incono de una flecha, que se encuentra en la esquina inferior derecha, para enviarlo.
+       1. Despues de presionar "Abrir", comenzara a cargar el archivo y en cuanto termine de cargar, se cerrara la venta y podran enviarlo presionando el boton verde con un incono de una flecha, que se encuentra en la esquina inferior derecha, para enviarlo.
        1. Cuando presiones el botón de enviar, el archivo se mandara y se borrara todo del recuadro de texto.
- 1. Finalmente, cuando desees cerrar tu sesión. por la esquina superior izquierda podremos ver el botón de salir que lo que realizara es sacarnos de nuestra sesión y mandarnos a la pantalla inicial.
+ 1. Finalmente, cuando desees cerrar tu sesión, en la esquina superior derecha podremos ver un icono de nuestro usuario, tendremos que presionarle y enseguida, nos mostrara un boton debajo de el para cerrar sessión, al presionarlo nos sacara de nuestra sesión y nos mandara a la pantalla inicial.
       
 
