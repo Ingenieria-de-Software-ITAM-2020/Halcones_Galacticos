@@ -68,6 +68,7 @@ Este sistema depende de varios servicios del ITAM, en particular los de inicio d
    - Olvidé mi contraseña (Link): este botón lo usaremos para que en caso de que el usuario haya olvidado su contraseña pueda mandarlo a otra página para recuperarla.
 Ingresar (Button): Este botón nos llevará a la página del chat de la aplicación de nuestro usuario.
 [[https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/1.png|alt=octocat]]
+![Alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/Halcones_Galacticos/blob/main/Imagenes/1.png "Optional Title") 
 
 
 La vista de los usuarios en la pagina del chat  
