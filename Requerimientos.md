@@ -20,10 +20,10 @@ El sistema de comunicación para los alumnos del ITAM es una aplicación web dis
 Considerando poder mandar mensajes de texto, imágenes y distintos tipos de archivos multimedia para poder comunicarse entre ellos.
 
 **2.               Descripción general**  
-**2.1.          Perspectiva del producto**  
+**2.1.          Perspectiva del producto**    
 El sistema está basado en los sistemas de comunicación más efectivos que conocemos, entre ellos whatsapp y messenger (de facebook), pero está adaptada especialmente a las necesidades del alumno y a los principios y reglas de la institución.
 
-**2.2.     Funciones del producto**
+**2.2.     Funciones del producto**  
 Las funciones principales que el sistema descrito contiene, a grandes rasgos, son las siguientes: 
 Permitir a los alumnos buscar a otros usuarios en la plataforma (alumnos, profesores y administrativos).
 Permitir a los profesores buscar a alumnos dentro de la plataforma, enfatizando a aquellos que están inscritos en un grupo en particular.
@@ -32,16 +32,16 @@ Crear chats grupales para facilitar la comunicación entre el grupo y entre equi
 Ver una lista de las conversaciones pasadas, filtradas por semestre.
 Procurar que las conversaciones cumplan el reglamento del instituto ( Se permite reportar todas las conversaciones que se consideren inapropiadas).  
 
-**2.3.          Clases y características de usuario**\
+**2.3.          Clases y características de usuario**  
 El sistema de comunicaciones colmillo será usado por 3 tipos de usuarios distintos: alumnos del ITAM, profesores y personal académico.
 Los alumnos se distinguen por ser la cuenta con más funciones y libertades, son capaces de contactar a otros alumnos, maestros y académicos (siempre y cuando sigan algunas condiciones necesarias para su interacción). El objetivo es facilitar la comunicación entre este tipo de usuarios, así como ponerlos en contacto con personal del instituto. La aplicación solventa todas las necesidades de comunicación que se relacionen con las actividades académicas de un estudiante.
 Los profesores y personal administrativo tienen una interacción limitada con los usuarios de la plataforma. En el caso de los profesores, solo permiten el contacto con los alumnos de sus grupos de clase, para esto, la aplicación se enfoca en permitir que el profesor comunique de manera clara los mensajes del curso y que resuelva dudas de manera eficiente. En el caso del personal administrativo, permite que se comuniquen solo con alumnos y que notifiquen en caso de ser necesario a la comunidad o a un alumno en particular.  
 
-**2.4.          Entorno operativo**\
+**2.4.          Entorno operativo**  
 Para comenzar operaciones es necesario un servidor robusto con certificados de seguridad. 
 Es necesario que el dispositivo que va a acceder a la aplicación cuente con una conexión a internet. Para hacer uso de nuestra página se requiere un navegador web estable (de preferencia actualizado), se recomienda usar Firefox, Google Chrome, Safari, Microsoft Edge, u Opera.   
 
-**2.5.          Restricciones de diseño e implementación**\
+**2.5.          Restricciones de diseño e implementación**  
 
 Se deben considerar en primera instancia las políticas de privacidad ya que la aplicación va a hacer uso de información sensible de cada alumno, en especial a las contraseñas y en un futuro información académica del usuario.
 
@@ -56,7 +56,7 @@ Sección de preguntas frecuentes.
 - Administrativos
 - Datos de contacto para soporte técnico.   
 
-**2.7.          Suposiciones y Dependencias**\
+**2.7.          Suposiciones y Dependencias**  
 Este sistema depende de varios servicios del ITAM, en particular los de inicio de sesión e información académica de los alumnos y de los profesores para filtrar los usuarios a los que tienen acceso. Debido a esto se supone que se tiene acceso al servicio de autenticación de alumnos del ITAM, así como a servicios de información académico.   
 
 **3.               Requerimientos de interfaz **   
@@ -90,7 +90,6 @@ El producto es una aplicación web, por lo que el único componente físico nece
 Las conexiones que existirían entre nuestro sistema con otros, sería con el sistema de inicio de sesión que se utiliza para comunidad (SSO).  Es necesario conocer toda la información de los alumnos así como las materias a las que está inscrito para de esta forma poder generar los grupos de chat a los que cada alumno podrá tener acceso por default, así como mandar mensaje directamente a sus profesores. A su vez es importante conocer el organigrama interno de las distintas áreas del ITAM para de esta forma poder mandar un mensaje a las distintas áreas administrativas.
 
 
-
 **3.4.          Interfaces de comunicaciones**  
 
 Para el funcionamiento adecuado de la plataforma se necesita:  
@@ -100,13 +99,6 @@ Para el funcionamiento adecuado de la plataforma se necesita:
 - Certificado SSL para cada transacción.
 - Se necesitan protocolos de concurrencia y de mensajes en tiempo real para evitar problemas de Integridad.
 - Acceso al API de la institución para consultar la información de los usuarios, profesores, grupos y materias.
-
-
-
-
-
-
-
 
 
 **4.               Características del sistema  
