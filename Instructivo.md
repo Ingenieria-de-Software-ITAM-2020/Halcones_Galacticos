@@ -29,8 +29,8 @@ Comunicación Colmillo:
     1. En caso de querer buscar a algun usuario que aun no tengas agregado a tu lista de amigos, tendras que buscar en la esquina superior derecha el boton caracterizado con el simbolo de una lupa y seleccionarlo.
        1. Al momenot de seleccionar la lupa, se te mandara automaticamente a una nueva pagina donde podras buscar entre administrativos, alumnos o maestros, unicamente seleccionando el checklist de tu agrado.
        1. Acontinuación escribiras el nombre de la persona que deseas agregar.
-       1. Cuando encuentres a la persona, la seleccionaras y presionaras el boton con una palomita.
-       1. Al presionar el boton, te mandara a la pantalla principal del chat y saldra esa persona al principio y ya se habra mandado la solicitud.
+       1. Cuando encuentres a la persona, la seleccionaras y presionaras la flechita de la fila donde se encuentra el nombre del usuario que buscas.
+       1. Al presionar la flechita, te mandara a la pantalla principal del chat y saldra esa persona al principio y ya se habra mandado la solicitud.
        1. Ahora podras chatear con ese usuario en cuanto acepte tu solicitud.
     1. En caso de querer mandar un mensaje a algun usuario que posteriormente tengas como amigo, tendras que ubicar el recuadro en la parte inferior, donde podras escribir tu mensaje.
        1. A continuación, cuando termines de escribir el mensaje, tendras que buscar un botón color verde con una flecha, este botón se encuentra en la esquina inferior derecha.
