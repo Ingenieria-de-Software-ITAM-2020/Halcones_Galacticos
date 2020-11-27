@@ -59,7 +59,7 @@ Sección de preguntas frecuentes.
 **2.7.          Suposiciones y Dependencias**\
 Este sistema depende de varios servicios del ITAM, en particular los de inicio de sesión e información académica de los alumnos y de los profesores para filtrar los usuarios a los que tienen acceso. Debido a esto se supone que se tiene acceso al servicio de autenticación de alumnos del ITAM, así como a servicios de información académico.   
 
-**3.               Requerimientos de interfaz **\  
+**3.               Requerimientos de interfaz **   
 **3.1.          Interfaces de usuario**  
 La vista de inicio de sesión de los usuarios  
 - Text “Usuario” que nos indica que el textField de a lado es para ingresar el nombre de usuario.
@@ -243,10 +243,10 @@ Para crear una conversación grupal el usuario hace selecciona la opción de cre
 
 **4.4.3 Requisitos funcionales**  
 - Detalles
- - Alcance: Agregar una opción en la interfaz que permita crear un chat grupal. Para cada grupo crear de manera automática una conversación donde participen todos los alumnos y el profesor.
-- Prioridad: Media.
-- Nivel: Alumnos y profesores.
-- Condiciones: Iniciar sesión y pertenecer a un grupo o tener consentimiento de comunicación.
+   - Alcance: Agregar una opción en la interfaz que permita crear un chat grupal. Para cada grupo crear de manera automática una conversación donde participen todos los alumnos y el profesor.
+  - Prioridad: Media.
+  - Nivel: Alumnos y profesores.
+  - Condiciones: Iniciar sesión y pertenecer a un grupo o tener consentimiento de comunicación.
 - Consiste en:
  - Un botón que permita crear una conversación grupal.
  - Una lista que contenga a los posibles participantes de la conversación.
