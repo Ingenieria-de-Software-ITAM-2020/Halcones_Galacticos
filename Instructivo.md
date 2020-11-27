@@ -1,32 +1,23 @@
-# Comunicación Colmillo:**
+# Instructivo de Comunicación Colmillo
 
 
- 1. Encender el dispositivo en el que accederás a la aplicación
+1. Preliminares
+    1. Encender el dispositivo en el que accederás a la aplicación.
+    1. Configurar tu conexión a internet y/o verificar la conectividad.
+    1. Abrir el navegador web de tu preferencia.
+    1. Ingresar al portal de [Comunicación Colmillo](https://pr.to/9Q0PLU/).
+
+1. Iniciar sesión
  
- 1. Configurar tu conexión a internet o verificar la conectividad
+    1. Una vez cargada la página de inicio introduce tus credenciales del ITAM y haz click en  "Ingresar"
+    1. A continuación presionas en el botón "Ingresar"
+        * En caso de que no recuerdes tu contraseña, selecciona el hipervínculo llamado "Olvide mi contraseña" (Ubicado abajo del formulario de inicio de sesión)
+            1. Escribe tu correo del ITAM en el campo correspondiente y haz click en "Recuperar".
+            1. A continuación puedes revisar tu correo electrónico, te mandaremos un enlace para que realices el cambio de contraseña.
  
- 1. Ingresar a algún explorador
+ 1. Chat
  
- 1. Ingresar al [link Prototipo](https://pr.to/9Q0PLU/)
- 
- 1. Inicialmente te mostrara la pantalla de inicio de Comunicación Colmillo
- 
- 1. Ingresaras con tus credenciales del ITAM al igual que ingresas en Canvas
- 
- 1. En caso de que no recuerdes tu contraseña, podrás seleccionar el hipervínculo, que se encuentra debajo de donde ingresas la contraseña, llamado "Olvide mi contraseña"
-    1. Después de dar click en el hipervínculo, te mandara a una nueva ventana
-    1. Dentro de esa ventana tendrás que ingresar el correo del ITAM, para que se te envié un link donde te redireccionara a una nueva página para que realices el cambio de contraseña.
-    1. Cuando hayas ingresado el correo correspondiente, te mandara un mensaje que dirá que "Se ha enviado un link de recuperación de contraseña" y automáticamente te llevara a la pantalla inicial.
- 
- 1. En caso de ya saberlas o ya haberla restaurado
- 
- 1. En la pantalla principal primero introduces tu usuario y a continuación tu contraseña
- 
- 1. A continuación presionas en el botón "Ingresar"
- 
- 1. Este botón te mandará a una nueva página que será donde estará el chat principal
- 
- 1. Del lado derecho tendrás tus contactos, tus grupos, los chats con administrativos y los chats de personas que te quieren agregar.
+     Del lado derecho tendrás tus contactos, tus grupos, los chats con administrativos y los chats de personas que te quieren agregar.
  
  1. Podrás elegir entre los distintos chats.
     1. Si eliges algún chat antiguo, podrás ver la conversación que habías tenido posteriormente con la persona.
