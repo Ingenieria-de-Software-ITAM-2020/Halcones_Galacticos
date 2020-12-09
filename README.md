@@ -15,3 +15,6 @@
 
 - El link de la presentación es el siguiente:
 [Presentación](https://docs.google.com/presentation/d/1jmVibGQ88-eMewvKo2rYXoLNsia_uKSerfT74GW0BVw/edit#slide=id.p)
+
+- El link del documento de drive es el siguiente: 
+[Drive](https://docs.google.com/document/d/1j_S-DaxFOsFXVHI1RbbW5wwOwgJyAWL_nmx-YWaod_g/edit)
